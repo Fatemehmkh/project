@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 50%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 50px auto;
+        background-color: chartreuse;
+        box-shadow: inset 5px 5px 25px #2b2b2b;
+        border: 3px solid grey;
+      }
+      form label {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        display: block;
+        width: 50%;
+        height: 30px;
+        margin-bottom: 10px;
+        outline: none;
+      }
+      textarea {
+        resize: none;
+        height: 150px;
+      }
+      input[type="submit"] {
+        all: unset;
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        background-color: darkolivegreen;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        color: whitesmoke;
+        font-family: IRAN;
+        text-align: center;
+        text-transform: capitalize;
+        transition: 300ms;
+      }
+      input[type="submit"]:hover {
+        background-color: darkgoldenrod;
+        color: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="fullname">fullname</label>
+      <input type="text" placeholder="fullname" id="fullname" name="fullname" />
+      <label for="email">email</label>
+      <input type="email" placeholder="email" id="email" name="email" />
+      <label for="comment">comment</label>
+      <textarea
+        type="text"
+        placeholder="comment"
+        id="comment"
+        name="comment"
+      ></textarea>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>

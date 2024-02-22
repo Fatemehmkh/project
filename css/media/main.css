@@ -1,0 +1,6 @@
+@import "./../media/xs.css" screen and (min-width: 0px);
+@import "./../media/sm.css" screen and (min-width: 576px);
+@import "./../media/md.css" screen and (min-width: 768px);
+@import "./../media/lg.css" screen and (min-width: 992px);
+@import "./../media/xl.css" screen and (min-width: 1200px);
+@import "./../media/xxl.css" screen and (min-width: 1400px);

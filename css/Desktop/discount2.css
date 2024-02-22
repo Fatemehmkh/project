@@ -1,0 +1,21 @@
+.disconut2 {
+  width: var(--width);
+  height: 264px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  .discount2__item {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 13px;
+    & img {
+      width:600px;
+      height:264px ;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+  }
+}

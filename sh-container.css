@@ -1,0 +1,176 @@
+.sh-container {
+  width: var(--width);
+  height: 343px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  .sh-container__item {
+    width: 97%;
+    height: 328px;
+    background-color: #d20e35;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    row-gap: 20px;
+    padding-right: 20px;
+    .text {
+      width: inherit;
+      height: 40px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      column-gap: 5px;
+      padding-right: 30px;
+      & p {
+        font-family: var(--font-family);
+        font-size: 14px;
+        color: white;
+      }
+    }
+    .item {
+      width: inherit;
+      height: 240px;
+      background-color: #d20e35;
+      display: flex;
+      flex-flow: row wrap;
+      .swiper-slide {
+        border-radius: 12px;
+        width: 681px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 10px;
+        .top {
+          width: 560px;
+          height: 30px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-start;
+          align-items: center;
+        }
+        .bottom {
+          width: 560px;
+          height: 180px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          .right {
+            width: 170px;
+            height: 180px;
+            padding-right: 40px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            align-items: center;
+            & img {
+              all: unset;
+              width: 170px;
+              height: 170px;
+              object-fit: cover;
+            }
+          }
+          .left {
+            width: 390px;
+            height: inherit;
+            display: flex;
+            flex-flow: column wrap;
+            .item__1 {
+              width: inherit;
+              height: 25px;
+            }
+            .item__2 {
+              width: inherit;
+              height: 50px;
+              display: flex;
+              flex-flow: row;
+              align-items: flex-start;
+              padding-right: 3px;
+              & h3 {
+                font-family: var(--font-family);
+                font-size: 11px;
+                font-weight: normal;
+              }
+            }
+            .item__3 {
+              width: inherit;
+              height: 26px;
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: space-between;
+              .icon-text {
+                width: 50px;
+                height: 20px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                .icon {
+                  width: 13px;
+                  height: 13px;
+                  background-color: black;
+                  border-radius: 50%;
+                }
+                & h2 {
+                  font-family: var(--font-family);
+                  font-size: 10px;
+                  font-weight: normal;
+                }
+              }
+              .star {
+                width: 50px;
+                height: 20px;
+                display: flex;
+                flex-flow: row-reverse wrap;
+                justify-content: space-evenly;
+                align-items: center;
+                & span {
+                  font-family: var(--font-family-number);
+                  font-size: 15px;
+                }
+              }
+            }
+            .item__4 {
+              width: inherit;
+              height: 30px;
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: space-between;
+              .takhfif {
+                width: 30px;
+                height: 20px;
+                background-color: #d20e35;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: var(--font-family-number);
+                font-size: 16px;
+                color: whitesmoke;
+              }
+              .rate {
+                width: 110px;
+                height: inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: var(--font-family-number);
+              }
+            }
+            .item__5 {
+              width: inherit;
+              height: 25px;
+              background-color: blueviolet;
+            }
+            .item__6 {
+              width: inherit;
+              height: 22px;
+              background-color: orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}

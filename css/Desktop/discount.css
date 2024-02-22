@@ -1,0 +1,22 @@
+.discount {
+  width: var(--width);
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .discount__item {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 13px;
+    & img {
+      width: 600px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+  }
+}

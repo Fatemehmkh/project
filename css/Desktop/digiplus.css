@@ -1,0 +1,113 @@
+.digiplus {
+  width: var(--width);
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  .digiplus__item {
+    width: 80%;
+    height: inherit;
+    background-color: #941b80;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    .right {
+      width: 416px;
+      height: 360px;
+      background-image: url(/image/digiplus/background.png);
+      background-size: 350px 280px;
+      background-position: left bottom;
+      background-repeat: no-repeat;
+      .top {
+        width: inherit;
+        height: 110px;
+        margin-top: 30px;
+        margin-right: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 10px;
+        .btn {
+          width: 105px;
+          height: 40px;
+          border: 1px solid whitesmoke;
+          background-color: #941b80;
+          font-family: var(--font-family);
+          font-size: 12px;
+          color: whitesmoke;
+          border-radius: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row nowrap;
+          column-gap: 6px;
+        }
+        .center {
+          font-family: var(--font-family);
+          font-size: 14px;
+          color: whitesmoke;
+          font-weight: normal;
+        }
+      }
+    }
+    .left {
+      width: 750px;
+      height: 350px;
+      background-color: #FFFFFF;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      flex-flow: column ;
+      .top {
+        width: 715px;
+        height: 65px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        .free {
+          width: 150px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 6px;
+          margin: 0 16px 0 16px;
+          cursor: pointer;
+        }
+        & h5 {
+          font-family: var(--font-family);
+          font-size: 16px;
+          font-weight: normal;
+        }
+        & span {
+          width: 90px;
+          height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row nowrap;
+    
+          margin: 0 16px 0 16px;
+          font-family: var(--font-family);
+          font-size: 12px;
+          color: #941b80;
+          cursor: pointer;
+        }
+      }
+      .bottom{
+        width: 715px;
+        height: 290px;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: center;
+        & img{
+            width: 116px;
+            height: 116px;
+        }
+        
+      }
+    }
+  }
+}

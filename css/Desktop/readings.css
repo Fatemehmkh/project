@@ -1,0 +1,43 @@
+.readings {
+  width: var(--width);
+  height: 65px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  .readings__item {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    .span {
+      width: 20%;
+      height: 20px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      align-items: center;
+      column-gap: 3px;
+    }
+    & h5 {
+      font-family: var(--font-family);
+      font-size: 14px;
+      color: black;
+      font-weight: normal;
+    }
+    & a {
+      font-family: var(--font-family);
+      font-size: 11px;
+      text-decoration: none;
+      &:visited {
+        color: #66c2d3;
+      }
+    }
+    & svg {
+      margin-bottom: 4px;
+    }
+  }
+}

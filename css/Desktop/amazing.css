@@ -1,0 +1,100 @@
+.amazing {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.amazing .amazing__center {
+  width: 80%;
+  height: inherit;
+  background-color: #ef394e;
+  border-radius: 20px;
+  padding: 20px 0;
+  border-left: 1px solid #ef394e;
+}
+.amazing .amazing__center .first__amazing {
+  background-color: #ef394e;
+}
+.amazing .amazing__center .first__amazing div {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+.amazing .amazing__center .first__amazing div > svg {
+  width: 92px;
+  height: 74px;
+  margin-bottom: 15px;
+}
+.amazing .amazing__center .first__amazing div img {
+  outline: unset;
+  width: 145px;
+  height: 115px;
+  margin-bottom: 10px;
+}
+.amazing .amazing__center .first__amazing div a {
+  text-decoration: none;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 13px;
+}
+.amazing .amazing__center .first__amazing div a svg g {
+  fill: whitesmoke;
+}
+.item__amazing .item {
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  display: flex;
+  flex-flow: column wrap !important;
+  justify-content: flex-start;
+}
+.item__amazing .item .amazing__top {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.item__amazing .item .amazing__center1 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+.item__amazing .item .amazing__center1 h5 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 15px;
+  font-family: var(--font-family-number);
+  color: #2b2b2b;
+}
+
+.item__amazing .item .amazing__center1 span {
+  font-family: var(--font-family-number);
+  font-size: 12px;
+  padding: 0 10px;
+  background-color: #d32f2f;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.item__amazing .item .amazing__bottom {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--font-family-number);
+  text-align: left;
+  padding-left: 35px;
+  font-size: 13px;
+  opacity: 0.9;
+  text-decoration: line-through;
+}
+.item__amazing .item .amazing__top img {
+  all: unset;
+  width: 150px;
+  height: 150px;
+}

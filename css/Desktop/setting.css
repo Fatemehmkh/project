@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --width: 100%;
+  --font-family: IRAN;
+  --font-family-number: B-Nazanin;
+  --font-family-persian: persian;
+}
+html,
+body {
+  direction: rtl;
+  height: max-content;
+}
+@font-face {
+  font-family: IRAN;
+  src: url(../../font/IRANYekanWeb-Medium.eot);
+  src: url(../../font/IRANYekanWeb-Medium.woff);
+  src: url(../../font/IRANYekanWeb-Medium.woff2);
+  src: url(../../font/IRANYekanWeb-Medium.ttf);
+}
+@font-face {
+    font-family: B-Nazanin;
+    src: url(../../font/B-Nazanin/BNazanin.eot);
+    src: url(../../font/B-Nazanin/BNazanin.ttf);
+    src: url(../../font/B-Nazanin/BNazanin.woff);
+    src: url(../../font/B-Nazanin/BNazanin.woff2);
+}
+@font-face{
+  font-family: Persian;
+  src: url(../../font/Persian/iranyekanwebextrabold.9346e9a2.eot);
+  src: url(../../font/Persian/iranyekanwebextrabold.9346e9a2.ttf);
+  src: url(../../font/Persian/iranyekanwebextrabold.9346e9a2.woff);
+  src: url(../../font/Persian/iranyekanwebextrabold.9346e9a2.woff2);
+}
+.wrapper {
+  width: 100%;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: lightgray;
+}
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: gray;
+  border-radius: 5px;
+}

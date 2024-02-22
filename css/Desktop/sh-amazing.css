@@ -1,0 +1,18 @@
+.sh-amazing {
+  width: var(--width);
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  .sh-amazing__item {
+    width: 97%;
+    height: inherit;
+    background-color: #ef3d52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & svg {
+      width: 200px !important;
+      height: 100px !important;
+    }
+  }
+}
